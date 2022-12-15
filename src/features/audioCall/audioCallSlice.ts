@@ -11,7 +11,6 @@ export enum GamePhase {
   results = 'results',
 }
 
-console.log('check up...')
 export interface IAudioCallState {
   gamePhase: GamePhase
   level: string
